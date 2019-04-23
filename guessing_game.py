@@ -7,10 +7,10 @@ import random
 
 min_numb = 0
 max_numb = 20
-messages = ["Your number exceded to max",
+messages = ["Your number is bigger than max",
             "It's lower",
             "It's higher",
-            "Your number is smaller than min"]
+            "Your number is smaller than minimun"]
 
 
 def start_game():
@@ -54,7 +54,7 @@ def select_highscore(new_score, last_score):
         return last_score
     
 if __name__ == '__main__':
-    print("""--------------------------------------------\n \u2B50   Welcome to the Number Guesing Game! \u2B50\n--------------------------------------------\n\n""")
+    print("""\n--------------------------------------------\n \u2B50   Welcome to the Number Guesing Game! \u2B50\n--------------------------------------------\n""")
     score = start_game()
 
     while True:
