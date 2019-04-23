@@ -66,6 +66,7 @@ if __name__ == '__main__':
         answer = input("Would you like to play again? [y]es/[n]o: ")
 
         if answer.lower() == 'n':
+            print("\nGood Game! bye bye \U0001F44B\n")
             break
         elif answer.lower() != 'y':
             print("Your input is not correct \u274C\n")
